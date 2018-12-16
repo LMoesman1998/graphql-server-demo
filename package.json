@@ -1,0 +1,17 @@
+{
+  "name": "graphql-test",
+  "version": "0.0.1",
+  "description": "Simple GraphQL server for test purposes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Lars Moesman",
+  "dependencies": {
+    "apollo-server": "^2.3.1",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "uuid": "^3.3.2"
+  }
+}

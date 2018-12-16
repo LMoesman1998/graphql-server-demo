@@ -1,0 +1,21 @@
+type Query {
+  listPersons: [Person]
+  getPerson(id: ID!): Person
+  hello: String
+}
+type Mutation {
+  addPerson(firstName: String!, lastName: String!, age: Int): Person
+  deletePerson(id: ID!): Person
+}
+
+type Person {
+  id: ID!
+  firstName: String!
+  lastName: String!
+  age: Int
+}
+
+schema {
+  query: Query
+  mutation: Mutation
+}
