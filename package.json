@@ -1,7 +1,7 @@
 {
-  "name": "graphql-test",
+  "name": "graphql-server-demo",
   "version": "0.0.1",
-  "description": "Simple GraphQL server for test purposes",
+  "description": "A project to experiment with GraphQL",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
